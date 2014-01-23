@@ -48,7 +48,7 @@ h3 {
 }
 
 div.step {
-  background: url('http://www.greenwellness.nl/media/image/logo.png') right top;
+  background: url('http://www.greenwellness.nl/media/image/logo.png') right top none;
 }
 
 ul {
