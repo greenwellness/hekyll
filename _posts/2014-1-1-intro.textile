@@ -14,6 +14,6 @@ h2. Overzicht
 |free[2] |"Bitbucket":bb|PR(private repository - code opslag)|gratis|
 |free[3] |"GitHub":gh|WR(wereld openbare repository - absoluut geen gevoelige informatie!!!)|gratis|
 
-[byte]http://byte.nl
+[byte]http://www.byte.nl
 [bb]https://bitbucket.org
 [gh]https://github.com
