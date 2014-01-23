@@ -4,7 +4,7 @@ title: Green Wellness Presentatie Generator
 ---
 
 # Green Wellness #
-_van de Wellnessbon: "bewust genieten"_
+_Wellnessbon: "bewust genieten"_
 
 [Start de presentatie!](preso.html)
 
