@@ -15,5 +15,5 @@ h3. Waarom?
 # Community software 'n coders (FOSS)
 # Brand, style, image (hipster)
 
-^1^ Naast @git@ zijn onder andere "SVN":svn en "Mercurial":hg populaire varianten, al missed ze flink wat features t.o.v. @git@ (gemaakt door de maker van Linux) ze hebben ook 1 of 2 features die git niet direct heeft (subtree bijv.).
+fn1. Naast @git@ zijn onder andere "SVN":svn en "Mercurial":hg populaire varianten, al missed ze flink wat features t.o.v. @git@ (gemaakt door de maker van Linux) ze hebben ook 1 of 2 features die git niet direct heeft (subtree bijv.).
 
