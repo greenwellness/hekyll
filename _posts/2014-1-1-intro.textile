@@ -14,5 +14,5 @@ Overzicht
 * security en safety (skipped)
 
 table{border:1px solid black}.
-|betaalde diensten|"Byte.nl":http://www.byte.nl|WS(Apache2 web server), DB(MySQL5 database), RS(jailed remote shell + cache)|row|
+|betaald|"Byte":http://www.byte.nl|WS(Apache2 web server), DB(MySQL5 database), RS(jailed remote shell + cache), BU(backups), SSL(secure sockets layer)|Magento Pro|
 |This|is|a|row|
