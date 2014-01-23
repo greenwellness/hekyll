@@ -3,8 +3,8 @@ layout: slide
 title: "Inhoud"
 published: true
 data:
-  x: 0
-  y: 0
+  x: 5000
+  y: 2000
 ---
 
 |_.type   |_.provider      |_.scope   |_.diensten|_.pakket  |

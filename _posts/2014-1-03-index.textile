@@ -1,0 +1,23 @@
+---
+layout: slide
+title: "Inhoud"
+published: true
+data:
+  x: 3000
+  y: 1000
+---
+
+|_.type   |_.provider      |_.scope   |_.diensten|_.pakket  |
+|         |                |          |          |          |
+|paid[1]  |"Byte":byte     |pub/priv  |WS(Apache2 web server) DB(MySQL5 database) RS(jailed remote shell + cache) BU(backups) SSL(secure sockets layer - certificaat voor https)|Magento Pro|
+|free[2]  |"Bitbucket":bb  |1x priv/o |PR(private repository - code opslag)|gratis|
+|free[2]  |"GitHub":gh     |opensource|WR(wereld openbare repository - absoluut geen gevoelige informatie!!!)|gratis|
+|         |                |          |          |          |
+
+fn1. Toegang via JL of RJ
+
+fn2. Toegang via RJ
+
+[byte]http://www.byte.nl
+[bb]https://bitbucket.org
+[gh]https://github.com
