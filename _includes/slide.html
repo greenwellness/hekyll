@@ -1,6 +1,6 @@
 <section {% if post.slide-id %}id="{{ post.slide-id }}"{% endif %}
-  {% for attr in post.data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}{% endunless %}
-  class="step">
+    {% for attr in post.data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}
+    class="step">
 
 
   {% if post.title != "" %}
