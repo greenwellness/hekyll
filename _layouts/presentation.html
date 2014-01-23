@@ -22,20 +22,99 @@
   <body>
 
     <!-- Main container jmpress -->
-    <div id="jmpress" data-template="auto">
+    <div id="jmpress"> <!-- data-template="auto">-->
 
       {{ content }}
 
     </div>
     <script>
-      $('#jmpress').jmpress();
 
-      $.jmpress('apply', '#secondary', {
-        secondary: {
-          rotate: { z: 20, x: 20, y:20 },
-          '': 'self'
-        }
-    });
+
+      /* =============================================================================
+      Green Wellness Customized
+      ========================================================================== */
+
+      $.jmpress('register', 'wellness', function() {
+        var jmpress = this;
+
+        // template - step down/up and right/left
+        $.jmpress('template', 'stepper', {
+          children: function(i, child, children) {
+            if ($(child).parent().attr('id') === 'developer') {
+              return {
+                y: -(i+1)*300,
+                x: ((i-1)%2)*100
+              };
+            }
+            return {
+              y: (i+1)*250,
+              x: (i%2)*100
+            };
+          }
+        });
+
+        // apply secondary animation
+        $.jmpress('apply', '#secondary', {
+          secondary: {
+            rotate: { z: 20, x: 20, y:20 },
+            '': 'self'
+          }
+        });
+
+        // on each step hide/show nav
+        var setActive = function(step) {
+          if ($(step).attr('id') === 'home') {
+            $('.nav').fadeOut();
+            $('.hint').stop(true, true).delay(3000).fadeIn();
+          } else {
+            $('.nav').fadeIn();
+            $('.hint').stop(true, true).fadeOut();
+          }
+        };
+
+        // our main configuration
+        var config = {
+          stepSelector: 'section',
+          viewPort: {
+            width: 1300,
+            maxScale: 1
+          },
+          presentationMode: {
+            notesUrl: 'index.notes.html'
+          },
+          setActive: setActive
+        };
+
+        // START JMPRESS and enable esc key de-init toggle
+        $(this).jmpress('toggle', 27, config, true);
+
+        // start nested jmpress
+        $('.nested-jmpress').jmpress({
+          viewPort: { height: 150, width: 700, maxScale: 1 },
+          duration: { defaultValue: 3500, barSelector: '.progressbar-value' },
+          stepSelector: '.nested-step',
+          hash: { use: false },
+          fullscreen: false,
+          presentationMode: { use: false }
+        });
+
+        // handle nested internal nav links
+        $('.nested-go').click(function() {
+          $('.nested-jmpress').jmpress($(this).attr('href').slice(1));
+          //_gaq.push(['_trackEvent', 'Feature', 'NestedJmpress', "start"]);
+          return false;
+        });
+
+        // handle internal nav links
+        $('.go').click(function(e) {
+          e.preventDefault();
+          $(jmpress).jmpress($(this).attr('href').slice(1));
+        });
+      });
+
+      // Fire in the hole!
+      $('.jmpress').jmpress('wellness');
+
     </script>
   </body>
 </html>
