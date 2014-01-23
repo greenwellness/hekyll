@@ -1,0 +1,6 @@
+|                   |                     |                                    |
+|_.Aanbieder        |_.Account            |_.Doel                              |
+|                   |                     |                                    |
+|GitHub             |greenwellness        |experiment,document,interop         |
+|BitBucket          |greenwellness        |magento source control              |
+|                   |                     |                                    |
