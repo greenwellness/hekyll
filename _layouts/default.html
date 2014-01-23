@@ -10,8 +10,17 @@
       </div>
     </div>
   </body>
-  <script>
-    $('#jmpress').jmpress();
+    <script>
+      $(function() {
+        $('#jmpress').jmpress({
+          viewPort: {
+            height: 2100,
+            width: 2100,
+            maxScale: 2,
+            zoomable: 7
+          }
+      });
+    });
   </script>
 </html>
 

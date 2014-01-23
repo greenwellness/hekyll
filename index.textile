@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Green Wellness Presentatie Generator
+zoom: 1000
 ---
 
 h1. Green Wellness
@@ -11,7 +12,7 @@ _Wellnessbon: "bewust genieten"_
 
 Het is dat we geen lekkere geuren via het internet kunnen verspreiden, anders hadden we het voor je gedaan! _Green Wellness_ tech-team
 
-Deze wellness **geweldenaar**, onze _presentatie_ generator, is mede dankzij "GitHub Pages":ghp, "Jekyll":jyl, "Hekyll":hyl en "Impress.js":ijs tot stand gekomen.
+Deze wwwellness **geweldenaar**, onze _presentatie_ generator, is mede dankzij "GitHub Pages":ghp, "Jekyll":jyl, "Hekyll":hyl en "Impress.js":ijs tot stand gekomen.
 
 [ghp]https://pages.github.com
 [jyl]http://jekyllrb.com
