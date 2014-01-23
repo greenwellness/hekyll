@@ -7,18 +7,18 @@ data:
   y: 0
 ---
 
-_Waarom?_ GitHub is wereldleider op het gebied van broncode beheersystemen (specifiek dus Git). Andere soortgelijke systemen zijn "SVN":svn en "Mercurial":hg.
-Geen is er zo krachtig en veelzijdig als GH(GitHub).
+h3. Waarom?
 
-_Wat?_ Wij hebben een beperkt aantal zaken ondergebracht op GH:
+Versiebeheer, marktleider, PR, open-source (voordelen). Open-source (nadeel).
 
+h4. Wie? @greenwellness@
 
-|_.account     |_.repository                  |_.rollen                        |_.tech                          |
-|              |                              |                                |                                |
-|greenwellness | "greenwellness.github.io":io | tekst -> website generator     | "Jekyll":jrb (Ruby)            |   
-|              | "documents":prose ^1^        | draft documentatie en notities | "Markdown":md, "Textile":ile   |
-|              | hekyll                       | tekst -> presentatie generator | "Jekyll":jrb, "Impress.js":ijs |
-|              |                              |                                |                                |
+|_.user tt         |_.repository            |_.rollen               |_.tech                          |
+|                  |                        |                       |                                |
+|GW(greenwellness) | "greenw...gh.io":io    | tekst -> site gen     | "Jekyll":jrb (Ruby)            |   
+|                  | "documents":prose ^1^  | draft doc en notities | "Markdown":md, "Textile":ile   |
+|                  | hekyll                 | tekst -> presentaties | "Jekyll":jrb, "Impress.js":ijs |
+|                  |                        |                       |                                |
 
 ^1^ Authenticatie via OAuth2 koppeling naar GitHub
 
