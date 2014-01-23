@@ -56,11 +56,11 @@ div.step {
 
 ul {
   list-style-type: circle;
-  margin-left: 15px;
+  padding: 0 0 0 1em;
 }
 ol {
   list-style-type: decimal-leading-zero;
-  margin-left: 15px;
+  padding: 0 0 0 1em;
 }
 table {
   border-collapse: collapse;
