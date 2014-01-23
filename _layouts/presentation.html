@@ -8,8 +8,17 @@
             {{ content }}
         </div>
         <script>
-            $('#jmpress').jmpress();
-        </script>
+            $(function() {
+                $('#jmpress').jmpress({
+                    viewPort: {
+                        height: 2100,
+                        width: 2100,
+                        maxScale: 1,
+                        zoomable: 10
+                    }
+                });
+            });
+       </script>
     </body>
 </html>
 
