@@ -56,6 +56,9 @@ div.step {
   background-position: right 20px top 20px;
   background-repeat: no-repeat;
 }
+.footnote {
+  font-size: 20px;
+}
 
 ul {
   list-style-type: circle;
