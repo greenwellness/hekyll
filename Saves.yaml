@@ -1,9 +1,0 @@
----
-- - Molly
-  - Trade
-- :location: Southeaster
-  :hunger: 10
-  :life: 76
-- :display: 1360*960
-  :render: high
-  :saves: manual
