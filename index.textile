@@ -6,7 +6,7 @@ title: Green Wellness Presentatie Generator
 h1. Green Wellness
 _Wellnessbon: "bewust genieten"_
 
-[Start de presentatie!](preso.html)
+"Start de presentatie":preso.html
 
 Deze wellness geweldenaar, onze presentatie generator is mede dankzij "GitHub Pages":ghp, "Jekyll":jyl, "Hekyll":hyl en "Impress.js":ijs tot stand gekomen.
 
