@@ -1,0 +1,19 @@
+---
+layout: default
+title: Green Wellness Presentatie Generator
+---
+
+h1. Green Wellness
+_Wellnessbon: "bewust genieten"_
+
+[Start de presentatie!](preso.html)
+
+Deze wellness geweldenaar, onze presentatie generator is mede dankzij "GitHub Pages":ghp, "Jekyll":jyl, "Hekyll":hyl en "Impress.js":ijs tot stand gekomen.
+
+[ghp]https://pages.github.com
+[jyl]http://jekyllrb.com
+[hyl]http://brianmcmurray.com/blog/2012/02/07/hekyll-for-awesome-easy-presentations/
+[ijs]http://bartaz.github.io/impress.js/#/bored
+
+
+
