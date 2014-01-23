@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Hekyll Presentation Generator
+title: Green Wellness Presentatie Generator
 ---
 
-# Hekyll #
-_pronunciation: "heckle"_
+# Green Wellness #
+_van de Wellnessbon: "bewust genieten"_
 
-Hekyll is a presentation generator that uses Jekyll and Impress.js to create awesome presentations. You write Markdown files, which get turned into individual slides for an Impress.js presentation. How cool is that?
+Deze revolutionaire presentatie generator is samengesteld met behulp van alleen maar open-source, gratis, software en hosting. Jij schrijft in een simpel tekstbestand, hij maakt er online interactieve toepassingen mee.
 
-[Check it out in action!](preso.html)
+[Start de presentatie!](preso.html)
 
-[Fork me on GitHub](https://github.com/bmcmurray/hekyll)
