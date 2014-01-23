@@ -2,15 +2,15 @@
 layout: slide
 title: "Inhoud"
 published: true
-slide-id: first
+slide-id: home
 data-jmpress: fade after 500ms
 data:
   x: 3000
   y: 1000
 ---
 
-|_.type   |_.provider      |_.scope   |_.diensten|_.pakket  |
 |         |                |          |          |          |
+|_.type   |_.provider      |_.scope   |_.diensten|_.pakket  |
 |paid[1]  |"Byte":byte     |pub/priv  |WS(Apache2 web server) DB(MySQL5 database) RS(jailed remote shell + cache) BU(backups) SSL(secure sockets layer - certificaat voor https)|Magento Pro|
 |free[2]  |"Bitbucket":bb  |1x priv/o |PR(private repository - code opslag)|gratis|
 |free[2]  |"GitHub":gh     |opensource|WR(wereld openbare repository - absoluut geen gevoelige informatie!!!)|gratis|
