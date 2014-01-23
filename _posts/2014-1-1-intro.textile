@@ -15,6 +15,7 @@ data:
 |         |                |          |          |          |
 
 fn1. Toegang via JL of RJ
+
 fn2. Toegang via RJ
 
 [byte]http://www.byte.nl
