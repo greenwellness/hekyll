@@ -14,3 +14,6 @@ Overzicht
 * evaluatie software
 * security en safety (skipped)
 
+table{border:1px solid black}.
+|This|is|a|row|
+|This|is|a|row|
