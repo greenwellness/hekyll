@@ -33,6 +33,18 @@ caption, th, td {
   font-weight: normal;
   vertical-align: middle; }
 
+td {
+  padding:  5px 15px;
+  font-size: 24px;
+}
+th {
+  padding: 10px 15px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+
+
 q, blockquote {
   quotes: none; }
   q:before, q:after, blockquote:before, blockquote:after {

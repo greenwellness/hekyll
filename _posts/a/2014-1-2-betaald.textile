@@ -1,0 +1,16 @@
+---
+layout: slide
+title: "Specificatie diensten"
+published: true
+data:
+  x: 1000
+  y: 0
+---
+
+h2. Betaalde diensten
+
+|_.provider|_.diensten|_.status|
+|byte.nl|magento hosting, email, SSL cert.,backups|GB|
+
+Soort hosting: specifiek, @managed@ (magento: webserver, mysql limited)
+Shell toegang? JA (jail, zeer beperkt)
