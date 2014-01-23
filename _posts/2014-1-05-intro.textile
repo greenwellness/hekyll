@@ -2,6 +2,7 @@
 layout: slide
 title: "Inhoud"
 published: true
+slide-id: secondary
 data:
   x: 5000
   y: 2000
