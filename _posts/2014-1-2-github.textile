@@ -1,0 +1,32 @@
+---
+layout: slide
+title: "GitHub repositories"
+published: true
+data:
+  x: 0
+  y: 0
+---
+
+_Waarom?_ GitHub is wereldleider op het gebied van broncode beheersystemen (specifiek dus Git). Andere soortgelijke systemen zijn "SVN":svn en "Mercurial":hg.
+Geen is er zo krachtig en veelzijdig als GH(GitHub).
+
+_Wat?_ Wij hebben een beperkt aantal zaken ondergebracht op GH:
+
+
+|_.account     |_.repository                  |_.rollen                        |_.tech                          |
+|              |                              |                                |                                |
+|greenwellness | "greenwellness.github.io":io | tekst -> website generator     | "Jekyll":jrb (Ruby)            |   
+|              | "documents":prose ^1^        | draft documentatie en notities | "Markdown":md, "Textile":ile   |
+|              | hekyll                       | tekst -> presentatie generator | "Jekyll":jrb, "Impress.js":ijs |
+|              |                              |                                |                                |
+
+^1^ Authenticatie via OAuth2 koppeling naar GitHub
+
+[svn]http://subversion.tigris.org/
+[hg]http://mercurial.selenic.com/
+[jrb]http://jekyllrb.com
+[ijs]http://bartaz.github.io/impress.js
+[md]https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+[ile]http://redcloth.org/hobix.com/textile/
+[io]http://greenwellness.github.io
+[prose]http://prose.io/greenwellness
