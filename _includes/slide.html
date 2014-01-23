@@ -1,4 +1,7 @@
-<section {% if post.slide-id != "" %}id="{{ post.slide-id }}"{% endif %} class="step">
+<section {% if post.slide-id %}id="{{ post.slide-id }}"{% endif %}
+  {% for attr in post.data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}{% endunless %}
+  class="step">
+
 
   {% if post.title != "" %}
     <h1>{{ post.title }}</h1>
