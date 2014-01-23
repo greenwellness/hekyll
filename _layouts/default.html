@@ -4,11 +4,14 @@
     {% include head.html %}
   </head>
   <body>
-    <div id="impress" class="impress-not-supported">
+    <div id="jmpress" class="jmpress-not-supported">
       <div class="step">
         {{ content }}
       </div>
     </div>
   </body>
+  <script>
+    $('#jmpress').jmpress();
+  </script>
 </html>
 
