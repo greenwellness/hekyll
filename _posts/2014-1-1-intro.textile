@@ -9,7 +9,7 @@ data:
 
 h2. Overzicht
 
-<!--table{border:1px solid black}.-->
-|pay|"Byte":http://www.byte.nl|WS(Apache2 web server), DB(MySQL5 database), RS(jailed remote shell + cache), BU(backups), SSL(secure sockets layer)|Magento Pro|
+|_.type|_.provider|_.pakket|
+|paid|"Byte":http://www.byte.nl|WS(Apache2 web server), DB(MySQL5 database), RS(jailed remote shell + cache), BU(backups), SSL(secure sockets layer)|Magento Pro|
 |free|"Bitbucket":https://bitbucket.org|PR(private repository - code opslag)|gratis|
 |free|"GitHub":https://github.com|WR(wereld openbare repository - absoluut geen gevoelige informatie!!!)|gratis|
