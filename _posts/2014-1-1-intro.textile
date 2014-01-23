@@ -9,11 +9,10 @@ data:
 
 Overzicht
 
-* betaalde diensten
 * gratis diensten (zoals GH(GitHub))
 * evaluatie software
 * security en safety (skipped)
 
 table{border:1px solid black}.
-|This|is|a|row|
+|betaalde diensten|"Byte.nl":http://www.byte.nl|WS(Apache2 web server), DB(MySQL5 database), RS(jailed remote shell + cache)|row|
 |This|is|a|row|
