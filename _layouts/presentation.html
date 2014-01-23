@@ -4,16 +4,11 @@
     {% include head.html %}
   </head>
   <body>
+    <div id="jmpress">
       {{ content }}
-      <div id="jmpress" data-template="auto">
     </div>
     <script>
-      $(function() {
-        $('#jmpress').jmpress({
-          stepSelector: "section"
-          ,hash: { use: false }
-        });
-      });
+      $('#jmpress').jmpress();
     </script>
   </body>
 </html>
