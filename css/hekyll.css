@@ -21,8 +21,18 @@ time, mark, audio, video {
 body {
   line-height: 1; }
 
-ol, ul {
-  list-style: none; }
+/* ol, ul { list-style: none; } */
+
+h1 {
+  color: #6c577a;
+  font-weight: bold;
+  font-size: 2em; }
+
+h3 {
+  color: #767529;
+  font-size: 1.5em;
+}
+  
 
 table {
   border-collapse: collapse;
@@ -117,11 +127,6 @@ a {
 
 a:hover {
   background: #e7e8e1; }
-
-h1 {
-  color: #6c577a;
-  font-weight: bold;
-  font-size: 2em; }
 
 /* COMMON STEP STYLES */
 .step {
