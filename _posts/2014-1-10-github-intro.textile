@@ -1,6 +1,7 @@
 ---
 layout: slide
 title: "GitHub introductie"
+slide-id: gh
 published: true
 data:
   x: 1000

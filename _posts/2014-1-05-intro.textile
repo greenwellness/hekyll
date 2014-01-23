@@ -4,8 +4,8 @@ title: "Inhoud"
 published: true
 slide-id: secondary
 data:
-  x: 5000
-  y: 2000
+  x: 4000
+  y: 1000
 ---
 
 |_.type   |_.provider      |_.scope   |_.diensten|_.pakket  |

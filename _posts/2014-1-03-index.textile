@@ -2,6 +2,7 @@
 layout: slide
 title: "Inhoud"
 published: true
+slide-id: first
 data-jmpress: fade after 500ms
 data:
   x: 3000
