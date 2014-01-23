@@ -8,6 +8,8 @@ data:
   y: 1000
 ---
 
+"clickeh":#step-2
+
 |_.type   |_.provider      |_.scope   |_.diensten|_.pakket  |
 |         |                |          |          |          |
 |paid[1]  |"Byte":byte     |pub/priv  |WS(Apache2 web server) DB(MySQL5 database) RS(jailed remote shell + cache) BU(backups) SSL(secure sockets layer - certificaat voor https)|Magento Pro|
