@@ -14,11 +14,9 @@ Versiebeheer, marktleider, PR, open-source (voordelen). Open-source (nadeel).
 h4. Wie? @greenwellness@ fo
 
 |_.user tt         |_.repository            |_.rollen               |_.tech                          |
-|                  |                        |                       |                                |
-|GW(greenwellness) | "greenw...gh.io":io    | tekst -> site gen     | "Jekyll":jrb (Ruby)            |   
+|GW(greenwellness) | "greenw...gh.io":io    | tekst -> site gen     | "Jekyll":jrb (Ruby)            |
 |                  | "documents":prose ^1^  | draft doc en notities | "Markdown":md, "Textile":ile   |
 |                  | hekyll                 | tekst -> presentaties | "Jekyll":jrb, "Impress.js":ijs |
-|                  |                        |                       |                                |
 
 ^1^ Authenticatie via OAuth2 koppeling naar GitHub
 
