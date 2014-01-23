@@ -9,7 +9,7 @@ _Wellnessbon: "bewust genieten"_
 
 "Start de presentatie":preso.html
 
-Deze wellness geweldenaar, onze presentatie generator is mede dankzij "GitHub Pages":ghp, "Jekyll":jyl, "Hekyll":hyl en "Impress.js":ijs tot stand gekomen.
+Deze wellness ++geweldenaar++, onze presentatie generator, is mede dankzij "GitHub Pages":ghp, "Jekyll":jyl, "Hekyll":hyl en "Impress.js":ijs tot stand gekomen.
 
 [ghp]https://pages.github.com
 [jyl]http://jekyllrb.com
