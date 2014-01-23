@@ -1,8 +1,11 @@
 <!doctype html>
 <html>
   <head>
+    <!-- jQuery and jmpress need to be in head due to markup rendering job -->
     {% include head.html %}
 
+    <!-- Temporary scripts and last minute css -->
+    <link href="./assets/theme/greenwellness/styles/automatic.css" rel="stylesheet" />
      <script>
       $.jmpress("template", "auto", {
           children: function(idx) {
@@ -17,8 +20,12 @@
     </script>
   </head>
   <body>
+
+    <!-- Main container jmpress -->
     <div id="jmpress" data-template="auto">
+
       {{ content }}
+
     </div>
     <script>
       $('#jmpress').jmpress();
