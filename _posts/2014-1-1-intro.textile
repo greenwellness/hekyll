@@ -14,8 +14,8 @@ data:
 |free[2]  |"GitHub":gh     |opensource|WR(wereld openbare repository - absoluut geen gevoelige informatie!!!)|gratis|
 |         |                |          |          |          |
 
-^1^ Toegang via JL of RJ
-^2^ Toegang via RJ
+fn1. Toegang via JL of RJ
+fn2. Toegang via RJ
 
 [byte]http://www.byte.nl
 [bb]https://bitbucket.org
