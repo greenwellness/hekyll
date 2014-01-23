@@ -20,10 +20,20 @@ time, mark, audio, video {
 
 body {
   line-height: 1;
-  background: #f1eee7;
 }
 
+/* ------------------------------------- */
+
 /* ol, ul { list-style: none; } */
+
+body {
+  font-family: "Myriad Pro", Myriad, Arial, "Helvetica", Helvetica, Geneva, sans-serif;
+  min-height: 740px;
+  background: #f1eee7;
+  /* background: #c5c7b6; */
+  -webkit-font-smoothing: antialiased;
+  color: #787a64;
+}
 
 h1 {
   color: #6c577a;
@@ -98,13 +108,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   overflow: visible;
   position: static !important;
   width: auto; }
-
-body {
-  font-family: "Myriad Pro", Myriad, Arial, "Helvetica", Helvetica, Geneva, sans-serif;
-  min-height: 740px;
-  background: #c5c7b6;
-  -webkit-font-smoothing: antialiased;
-  color: #787a64; }
 
 b, strong {
   font-weight: bold; }
