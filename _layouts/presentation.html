@@ -5,20 +5,18 @@
     </head>
     <body{% if site.simple-slideshow %} class="simple-slideshow"{% endif; %}>
         <div id="jmpress" class="jmpress-not-supported">
+            <section>
             {{ content }}
+            </section>
         </div>
         <script>
-            $(function() {
-                $('#jmpress').jmpress({
-                    viewPort: {
-                        height: 2100,
-                        width: 2100,
-                        maxScale: 2,
-                        zoomable: 7
-                    }
-                });
+        $(function() {
+            $('#jmpress').jmpress({
+                stepSelector: "section"
+                ,hash: { use: false }
             });
-       </script>
+        });
+        </script>
     </body>
 </html>
 
