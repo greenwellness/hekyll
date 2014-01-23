@@ -11,13 +11,13 @@ h2. Overzicht
 
 |_.type   |_.provider      |_.diensten|._pakket|
 |         |                |          |        |
-| paid ^1 | "Byte":byte    |WS(Apache2 web server) DB(MySQL5 database) RS(jailed remote shell + cache) BU(backups) SSL(secure sockets layer - certificaat voor https)|Magento Pro|
-| free ^2 | "Bitbucket":bb |PR(private repository - code opslag)|gratis|
-| free ^2 | "GitHub":gh    |WR(wereld openbare repository - absoluut geen gevoelige informatie!!!)|gratis|
+|paid ^ 1 |"Byte":byte     |WS(Apache2 web server) DB(MySQL5 database) RS(jailed remote shell + cache) BU(backups) SSL(secure sockets layer - certificaat voor https)|Magento Pro|
+|free ^ 2 |"Bitbucket":bb  |PR(private repository - code opslag)|gratis|
+|free ^ 2 |"GitHub":gh     |WR(wereld openbare repository - absoluut geen gevoelige informatie!!!)|gratis|
 |         |                |          |        |
 
-^1. Toegang via Jan of Rob
-^2. Toegang via Rob
+1. Toegang via Jan of Rob
+2. Toegang via Rob
 
 [byte]http://www.byte.nl
 [bb]https://bitbucket.org
