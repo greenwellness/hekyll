@@ -9,19 +9,25 @@ data:
 
 h3. Waarom?
 
-Versiebeheer, marktleider, PR, open-source (voordelen). Open-source (nadeel).
+# Versiebeheer (de beste)
+# Marktleider / betrouwbaar
+# References (Google bot)
+# Community software (FOSS)
+# Status / image
 
-h4. Wie? @greenwellness@ fo
+h3. Wie? @greenwellness@ account/gebruiker
 
-|_.user tt         |_.repository            |_.rollen               |_.tech                          |
-|GW(greenwellness) | "greenw...gh.io":io    | tekst -> site gen     | "Jekyll":jrb (Ruby)            |
-|                  | "documents":prose ^1^  | draft doc en notities | "Markdown":md, "Textile":ile   |
-|                  | hekyll                 | tekst -> presentaties | "Jekyll":jrb, "Impress.js":ijs |
+|_.gebruiker (afk)     |_.repository            |_.rollen               |_.tech                          |
+|GW(greenwellness) ^1^ | "greenw...gh.io":io    | tekst -> site gen     | "Jekyll":jrb (Ruby)            |
+|                      | "documents":prose ^2^  | draft doc en notities | "Markdown":md, "Textile":ile   |
+|                      | hekyll                 | tekst -> presentaties | "Jekyll":jrb, "Impress.js":ijs |
 
-^1^ Authenticatie via OAuth2 koppeling naar GitHub
+^1^ Vanwege ruimtegebruik afgekort. Ga met de muis over de afkorting om de gebruikersnaam te zien.
+^2^ Authenticatie via OAuth2 koppeling naar GitHub
 
 [svn]http://subversion.tigris.org/
 [hg]http://mercurial.selenic.com/
+
 [jrb]http://jekyllrb.com
 [ijs]http://bartaz.github.io/impress.js
 [md]https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
