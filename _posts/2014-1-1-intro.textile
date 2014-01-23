@@ -7,10 +7,10 @@ data:
   y: 0
 ---
 
-Overzicht:
+Overzicht
 
 * betaalde diensten
-* gratis diensten
+* gratis diensten (zoals GH(GitHub))
 * evaluatie software
 * security en safety (skipped)
 
