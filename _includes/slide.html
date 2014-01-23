@@ -1,6 +1,6 @@
-<section {% if post.slide-id %}id="{{ post.slide-id }}"{% endif %} class="step">
+<section {% if post.slide-id != "" %}id="{{ post.slide-id }}"{% endif %} class="step">
 
-  {{% if post.title != "" %}
+  {% if post.title != "" %}
     <h1>{{ post.title }}</h1>
   {% endif %}
 
