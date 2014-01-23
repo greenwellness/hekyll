@@ -52,7 +52,7 @@ h3 {
 }
 
 div.step {
-  background-image: url('http://www.greenwellness.nl/media/image/logo.png');
+  background-image: url('../img/gw_logo.png');
   background-position: right 20px top 20px;
   background-repeat: no-repeat;
 }
