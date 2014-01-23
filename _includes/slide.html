@@ -3,7 +3,7 @@
 <!--{% for attr in post.data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}{% endunless %}>-->
 <div class="slide">
   {% if post.title != "" %}<h1>{{ post.title }}</h1>{% endif %}
-  <section id={{ post.id }}>
+  <section>
     {{ post.content }}
   </section>
 </div>
