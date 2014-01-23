@@ -11,7 +11,7 @@ h3. Waarom?
 
 Versiebeheer, marktleider, PR, open-source (voordelen). Open-source (nadeel).
 
-h4. Wie? @greenwellness@
+h4. Wie? @greenwellness@ fo
 
 |_.user tt         |_.repository            |_.rollen               |_.tech                          |
 |                  |                        |                       |                                |
