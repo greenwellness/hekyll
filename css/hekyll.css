@@ -49,7 +49,7 @@ h3 {
 
 div.step {
   background-image: url('http://www.greenwellness.nl/media/image/logo.png');
-  background-position: right 10px top;
+  background-position: right 10px 10px;
   background-repeat: no-repeat;
 }
 
