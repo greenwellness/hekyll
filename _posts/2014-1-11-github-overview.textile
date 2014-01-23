@@ -2,6 +2,7 @@
 layout: slide
 title: "Inhoud"
 published: true
+slide-id: developer
 data:
   x: 2000
   y: 0
