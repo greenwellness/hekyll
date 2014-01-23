@@ -49,11 +49,11 @@ h3 {
   
 ul {
   list-style-type: circle;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 ol {
   list-style-type: upper-roman;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 table {
   border-collapse: collapse;
