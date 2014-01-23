@@ -46,7 +46,11 @@ h3 {
   color: #767529;
   font-size: 1.5em;
 }
-  
+
+div#impress {
+  background: url('http://www.greenwellness.nl/media/image/logo.png') right top;
+}
+
 ul {
   list-style-type: circle;
   margin-left: 15px;
