@@ -21,10 +21,12 @@ time, mark, audio, video {
 body {
   line-height: 1;
 }
-
+ol, ul {
+  list-style: none;
+}
 /* ------------------------------------- */
 
-/* ol, ul { list-style: none; } */
+
 
 body {
   font-family: "Myriad Pro", Myriad, Arial, "Helvetica", Helvetica, Geneva, sans-serif;
@@ -45,7 +47,14 @@ h3 {
   font-size: 1.5em;
 }
   
-
+ul {
+  list-style-type: circle;
+  margin-left: 5px;
+}
+ol {
+  list-style-type: upper-roman;
+  margin-left: 5px;
+}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
