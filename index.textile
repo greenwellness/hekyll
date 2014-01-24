@@ -5,14 +5,13 @@ title: Green Wellness Presentatie Generator
 
 h1. Green Wellness
 
-_Wellnessbon: "bewust genieten"_
+_De_ Wellnessbon: _"bewust genieten"_
 
 "Start de presentatie":preso.html
 
-Het is dat we geen lekkere geuren via het internet kunnen verspreiden, anders
-hadden we het voor je gedaan! _Green Wellness_ tech-team
+p. Het is dat we geen lekkere geuren via het internet kunnen verspreiden, anders hadden we het voor je gedaan! _Green Wellness_ tech-team
 
-Deze _wwwellness_ **geweldenaar**, onze _presentatie_ generator, is mede dankzij "GitHub Pages":ghp, "Jekyll":jyl, "Hekyll":hyl en "Impress.js":ijs tot stand gekomen.
+p. Deze _wwwellness_ **geweldenaar**, onze _presentatie_ generator, is mede dankzij "GitHub Pages":ghp, "Jekyll":jyl, "Hekyll":hyl en "Impress.js":ijs tot stand gekomen.
 
 
 <script>
@@ -24,7 +23,7 @@ Deze _wwwellness_ **geweldenaar**, onze _presentatie_ generator, is mede dankzij
         maxScale: 1,
         zoomable: 7
       }
-  });
+    });
   });
 </script>
 
