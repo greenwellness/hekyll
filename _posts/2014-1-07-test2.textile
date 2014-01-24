@@ -1,11 +1,11 @@
 ---
 layout: slide
-title: "Inhoud"
+title: "Test2"
 published: true
 slide-id: controls
 data:
-  y: -100
-  x: -400
+  y: 2000
+  x: 4000
 ---
 
 

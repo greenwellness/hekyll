@@ -1,10 +1,11 @@
 ---
 layout: slide
-title: "Inhoud"
+title: "Animations"
 published: true
 slide-id: animations
 data:
-  y: 1200
+  y: 12000
+  x: 6000
 ---
 
 
