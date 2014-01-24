@@ -3,6 +3,8 @@ layout: slide
 title: "Inhoud"
 published: true
 slide-id: secondary
+classes:
+  - zoomable
 data:
   x: 4000
   y: 1000
