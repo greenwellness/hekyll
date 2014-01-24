@@ -9,13 +9,22 @@ _De_ Wellnessbon: _"bewust genieten"_
 
 "Start de presentatie":preso.html
 
+
+{% include references.textile %}
+
 p. Het is dat we geen lekkere geuren via het internet kunnen verspreiden, anders hadden we het voor je gedaan! _Green Wellness_ tech-team
 
-p. Deze _wwwellness_ **geweldenaar**, onze _presentatie_ generator, is mede dankzij
+p. Deze _wwwellness_ **geweldenaar**, onze _presentatie_ generator, is mede dankzij "GitHub Pages":ghp, "Jekyll":jyl, "Hekyll":hyl en "Impress.js":ijs tot stand gekomen.
 
+ <ul>
 {% for contrib in site.data.credits %}
-# "{{ contrib.name }}":{{ contrib.site }}
+  <li>
+    <a href="{{ contrib.site }}">
+      {{ contrib.name }}
+    </a>
+  </li>
 {% endfor %}
+</ul>
 
 
 <script>
