@@ -1,0 +1,24 @@
+---
+layout: slide
+title: "Inhoud"
+published: true
+slide-id: animations
+data:
+  y: 1200
+---
+
+
+ <h4>custom animations</h4>
+  <h3>using the <code>data-jmpress</code> attribute</h3>
+  <h5 class="pull-right span4">press the next arrow key or spacebar to view...</h5>
+  <ul>
+          <li data-jmpress="fade"><code>&lt;div data-jmpress="fade"/&gt;</code></li>
+          <li data-jmpress="drive-right after 500ms"><code>&lt;div data-jmpress="drive-right after 500ms"/&gt;</code></li>
+          <li data-jmpress="drive-up after 500ms"><code>&lt;div data-jmpress="drive-up after 500ms"/&gt;</code></li>
+          <li data-jmpress="warp-right after 500ms"><code>&lt;div data-jmpress="warp-right after 500ms"/&gt;</code></li>
+          <li data-jmpress="fade after 500ms"><code>&lt;div data-jmpress="fade after 500ms"/&gt;</code></li>
+          <li data-jmpress="drive-right after 500ms"><code>&lt;div data-jmpress="drive-right after 500ms"/&gt;</code></li>
+          <li data-jmpress="fade after 500ms" style="list-style:none;"><a href="http://jmpressjs.github.com/docs/animation.html"
+           target="_blank" class="pull-right">read more about animations</a></li>
+</ul>
+
