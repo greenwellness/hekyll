@@ -10,9 +10,10 @@ _Wellnessbon: "bewust genieten"_
 
 "Start de presentatie":preso.html
 
-Het is dat we geen lekkere geuren via het internet kunnen verspreiden, anders hadden we het voor je gedaan! _Green Wellness_ tech-team
+Het is dat we geen lekkere geuren via het internet kunnen verspreiden, anders
+hadden we het voor je gedaan! _Green Wellness_ tech-team
 
-Deze wwwellness **geweldenaar**, onze _presentatie_ generator, is mede dankzij "GitHub Pages":ghp, "Jekyll":jyl, "Hekyll":hyl en "Impress.js":ijs tot stand gekomen.
+Deze _wwwellness_ **geweldenaar**, onze _presentatie_ generator, is mede dankzij "GitHub Pages":ghp, "Jekyll":jyl, "Hekyll":hyl en "Impress.js":ijs tot stand gekomen.
 
 [ghp]https://pages.github.com
 [jyl]http://jekyllrb.com
