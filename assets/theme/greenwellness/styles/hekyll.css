@@ -52,7 +52,7 @@ h3 {
 }
 
 div.step {
-  background-image: url('./assets/theme/greenwellness/images/gw_logo.png');
+  background-image: url('http://greenwellness.github.io/hekyll/assets/theme/greenwellness/images/gw_logo.png');
   background-position: right 20px top 20px;
   background-repeat: no-repeat;
 }
