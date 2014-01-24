@@ -7,20 +7,9 @@
     <div id="jmpress" class="jmpress-not-supported">
       <div class="step">
         {{ content }}
+        {% include references.textile %}
       </div>
     </div>
   </body>
-    <script>
-      $(function() {
-        $('#jmpress').jmpress({
-          viewPort: {
-            height: 2100,
-            width: 2100,
-            maxScale: 1,
-            zoomable: 7
-          }
-      });
-    });
-  </script>
 </html>
 
