@@ -3,11 +3,13 @@ layout: slide
 title: "Inhoud"
 published: true
 slide-id: home
-data-jmpress: fade after 500ms
 data:
   x: 3000
   y: 1000
+  template: stepper
 ---
+
+<!--jmpress: fade after 500ms-->
 
 |         |                |          |          |          |
 |_.type   |_.provider      |_.scope   |_.diensten|_.pakket  |
