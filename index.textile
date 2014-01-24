@@ -11,17 +11,11 @@ _De_ Wellnessbon: _"bewust genieten"_
 
 p. Het is dat we geen lekkere geuren via het internet kunnen verspreiden, anders hadden we het voor je gedaan! _Green Wellness_ tech-team
 
-p. Deze _wwwellness_ **geweldenaar**, onze _presentatie_ generator, is mede dankzij "GitHub Pages":ghp, "Jekyll":jyl, "Hekyll":hyl en "Impress.js":ijs tot stand gekomen.
+p. Deze _wwwellness_ **geweldenaar**, onze _presentatie_ generator, is mede dankzij
 
- <ul>
-{% for member in site.data.members %}
-  <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
-    </a>
-  </li>
+{% for contrib in site.data.credits %}
+# "{{ contrib.name }}":{{ contrib.site }}
 {% endfor %}
-</ul>
 
 
 <script>

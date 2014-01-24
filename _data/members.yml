@@ -1,8 +1,11 @@
-- name: Tom Preston-Werner
-  github: mojombo
+- name: GitHub Pages
+  role: Hosting, Security
+  site: https://pages.github.com 
 
-- name: Parker Moore
-  github: parkr
+- name: Jekyll
+  role: Parse Engine
+  site: http://jekyllrb.com
 
-- name: Liu Fengyun
-  github: liufengyun
+- name: Hekyll
+  role: Original
+  site: http://brianmcmurray.com/blog/2012/02/07/hekyll
