@@ -64,6 +64,16 @@
           }
         });
 
+        // apply zoomable featurs to all with the class
+        $.jmpress('apply', '.zoomable', {
+          viewPort: {
+            height: 2100,
+            width: 2100,
+            maxScale: 1,
+            zoomable: 10
+            }
+        });
+
         // on each step hide/show nav
         var setActive = function(step) {
           if ($(step).attr('id') === 'home') {
