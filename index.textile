@@ -14,15 +14,6 @@ p. Het is dat we geen lekkere geuren via het internet kunnen verspreiden, anders
 p. Deze _wwwellness_ **geweldenaar**, onze _presentatie_ generator, is mede dankzij "GitHub Pages":ghp, "Jekyll":jyl, "Hekyll":hyl en "Impress.js":ijs tot stand gekomen.
 
 
-<ul>
-{% for member in site.data.members %}
-  <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
 
 <script>
   $(function() {

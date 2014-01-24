@@ -6,7 +6,16 @@
   <body>
     <div id="jmpress" class="jmpress-not-supported">
       <div class="step">
-        {% include references.textile %}
+ <ul>
+{% for member in site.data.members %}
+  <li>
+    <a href="https://github.com/{{ member.github }}">
+      {{ member.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+       {% include references.textile %}
         {{ content }}
       </div>
     </div>
